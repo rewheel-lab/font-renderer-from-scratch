@@ -39,3 +39,9 @@ There are two folders for each episode:
 - `epXX_done` ... the code at the end of the episode. Compare your work with this version if something does not work.
 
 If you get stuck in an earlier episode, you can join again from the next episode's `_start` folder. You are also free to use this as material for classes or study groups (MIT License).
+
+## Experiment programs for the extra episodes
+
+The `extra/` folder contains the experiment programs used in the extra episodes. Each folder is one Visual Studio project: double-click its `.sln` file and press F5.
+
+`extra/font_inside` (the extra episode "Inside a Font") uses the font loading and outline drawing from Font Renderer #03 and #04 to show what is inside a font file. Switch fonts with the keys 1 to 6 and characters with C. Press O for outline info (point counts and more), T for the list of tables, M for the fonts inside a TTC file, and G for the data breakdown of one character. Press P to show the outline points, and use Z, X, and the arrow keys to zoom and move. Fonts are loaded from `C:/Windows/Fonts/` when the program runs. If you choose a font that is not installed, it shows "not found" (it does not crash, and you can still use the other fonts). The full list of controls is at the top of `main.cpp`.
